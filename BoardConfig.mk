@@ -89,7 +89,17 @@ TW_OREO_MR1_F2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_NTFS_3G := true
 
+#Ignore Missing Dependencies
 ALLOW_MISSING_DEPENDENCIES=true
 
 
-
+#SHRP_Variables
+SHRP_PATH := device/coolpad/c103
+SHRP_MAINTAINER := epicX
+SHRP_DEVICE_CODE := c103
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usbotg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
