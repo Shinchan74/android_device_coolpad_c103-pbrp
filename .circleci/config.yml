@@ -28,4 +28,4 @@ workflows:
           filters:
             branches:
               only: 'android-9.0'
-          context: org-global
+          context: Shinchan
