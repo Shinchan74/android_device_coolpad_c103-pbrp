@@ -4,6 +4,8 @@ jobs:
     docker:
       - image: fr3akyphantom/droid-builder:latest
     environment:
+      GIT_EMAIL: 'ksubroto36@gmail.com'
+      GIT_NAME: 'Shinchan76'
       MANIFEST_BRANCH: 'android-9.0'
       VERSION: '3.0.0'
       MAINTAINER: 'PBRP Team'
